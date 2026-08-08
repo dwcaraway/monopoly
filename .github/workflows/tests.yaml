@@ -18,7 +18,7 @@ jobs:
       - name: Install pdftotext dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y build-essential libpoppler-cpp-dev pkg-config ocrmypdf
+          sudo apt-get install -y build-essential libpoppler-cpp-dev pkg-config ocrmypdf python3-dev
 
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v6

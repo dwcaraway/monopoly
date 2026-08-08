@@ -27,7 +27,7 @@ jobs:
       - name: Install pdftotext
         run: |
           sudo apt-get update
-          sudo apt-get install build-essential libpoppler-cpp-dev pkg-config ocrmypdf
+          sudo apt-get install build-essential libpoppler-cpp-dev pkg-config ocrmypdf python3-dev
 
       - name: Install uv
         uses: astral-sh/setup-uv@v7
